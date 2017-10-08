@@ -1,8 +1,15 @@
 package com.firebase.database.DB;
 
-/**
- * Created by sboyd on 10/8/2017.
- */
+
+
+import com.google.firebase.database.*;
+
 
 public class DB {
+    private DatabaseReference mdb;
+
+    public DB()
+    {
+        mdb = FirebaseDatabase.getInstance().getReference(); //Initialize Database for read/write
+    }
 }
