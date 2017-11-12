@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">AutiTrak</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="next">Next</string>
+    <string name="individual">Individual</string>
+    <string name="caregiver">Caregiver</string>
+    <string name="signUp">Signup</string>
 </resources>
